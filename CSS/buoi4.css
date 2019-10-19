@@ -1,0 +1,12 @@
+p{
+    /* cách 1 làm dài */
+    /* background-image:url("../Anh/1.jpg");
+    height: 2000px;
+    width: 2000px;
+    background-repeat: no-repeat; */
+
+    /* cách 2 làm ngắn */
+    background: #FFF url(../Anh/2.jpg) no-repeat;
+    height: 2000px;
+    
+}

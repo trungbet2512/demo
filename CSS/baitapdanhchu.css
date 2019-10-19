@@ -1,0 +1,25 @@
+p{
+    text-align: center;
+    font-style: italic;
+}
+.content{
+/* cách 1 viết nhiều */
+/* border-color: #000;
+border-width: 1px;
+border-style: solid; */
+/* cách 2 viết tắt */
+/* border: color width style */
+border: red 1px solid;
+}
+.first{
+    color: green;
+}
+.second{
+    color: blue;
+}
+.one strong{
+    color: red;
+}
+.two strong{
+color: aqua;
+}

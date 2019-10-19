@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    margin-top: 20px;
+}
+.logo{
+    text-align: center;
+    background: #f1f1f1;
+}
+.product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.product-item{
+    border: 1px solid #f1f1f1;
+    text-align: center;
+}
+.menu{
+    background: pink;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    text-align: center;
+    list-style: none;
+    padding: 5px 0;
+}

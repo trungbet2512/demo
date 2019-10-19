@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+}
+.container{
+    width: 980px;
+    margin: auto;
+}
+.logo-wrapper{
+    text-align: center;
+    background: #350a21;
+    padding: 35px 0;
+}
+.menu{
+    background: #b85797;
+    list-style: none;
+    font-size: 14px;
+    font-family: tahoma; /*cách chọn font chữ*/
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.menu li{
+    text-align: center;
+    padding: 7px 0;
+}
+.menu li a{
+    text-decoration: none; /* Để bỏ gạch chân */
+    color: #000;
+}
+main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 12px;
+}
+.title{
+    text-align: center;
+    margin-bottom: 17px;
+    padding-bottom: 10px;
+    padding-top: 23px;
+    border-bottom: 1px #d08fba solid;
+    font-size: 24px;
+    font-family: tahoma;
+    font-weight: normal; /* Chỉnh độ đậm của chữ */
+    text-transform: uppercase; /*chỉnh chữ in hoa */
+    color: #b85797;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 34px;
+    text-align: center;
+}
+.product-item{
+    border: 1px solid #cccccc;
+    padding: 10px 15px 30px 15px;
+    position: relative;
+}
+.product-item h4{
+    font-size: 19px;
+    font-family: tahoma;
+    font-weight: normal;
+    color: #363535;
+}
+.price{
+    display: grid;
+    grid-gap: 10px;
+    margin: 10px;
+}
+.new-price{
+    color: #b85797;
+    font-size: 15px;
+    font-family: tahoma;
+    font-weight: 600;
+}
+.old-price{
+    color: #010101;
+    font-size: 15px;
+    font-family: tahoma;
+    text-decoration: line-through; /* gạch chân ở giữa */
+    
+}
+.btn-primary{
+    background: #350a21;
+    color: #fae8f4;
+    padding: 10px 42px;
+    font-size: 18px;
+    font-family: tahoma;
+}
+aside{
+    background: #fae8f4;
+    margin-top: 10px;
+    text-align: center;
+}
+aside h3{
+    font-size: 16px;
+    font-family: tahoma;
+    color: #350a21;
+    font-weight: normal;
+    padding: 22px 0;
+}

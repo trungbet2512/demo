@@ -1,0 +1,88 @@
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+.container{
+    margin: auto;
+    font-family: tahoma;
+}
+.logo-wrapper{
+    background: #272f54;
+    padding: 20px 0 15px 0;
+    text-align: center;
+}
+.main-menu{
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    
+    background: #cb7802;
+}
+.search{
+    padding: 10px;
+    text-align: right;
+}
+.menu{
+    text-align: center;
+    grid-gap: 12px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.menu > li{
+    position: relative;
+}
+.menu > li:hover ul{
+    display: block;
+    font-family: 'Indie Flower', cursive;
+}
+.menu ul{
+    position: absolute;
+    top: 46px;
+    background: #86612c;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    padding: 10px;
+    width: 200px;
+    display: none;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+    display: block;
+    padding: 15px 0;
+}
+button{
+    background: #272f54;
+    color: #fff;
+    font-size: 11px;
+}
+.new{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 28px;
+}
+h3{
+    font-size: 20;
+    color: #272f54;
+    padding: 20px 0px 25px 0px;
+}
+.new-item{
+    padding: 15px 25px 25px 25px;
+    border: 1px solid #c2c2c2;
+}
+h4{
+    font-size: 16px;
+    color: #ad3f00;
+    padding: 15px 0px 20px 0px;
+}
+p{
+    font-size: 13pt;
+}
+footer{
+    background: #272f54;
+    text-align: center;
+    padding: 20px 0px;
+    color: #fff;
+}

@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+.Box{
+     border: 1px solid #000;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-gap: 20px;
+     
+ }
+.product{
+    margin: 10px;
+    padding: 20px;
+   
+}
+.product-item{
+    text-align: center;
+}
